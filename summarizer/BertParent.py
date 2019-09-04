@@ -1,4 +1,4 @@
-from pytorch_pretrained_bert import BertTokenizer, BertModel, GPT2Model, GPT2Tokenizer
+from pytorch_transformers import BertTokenizer, BertModel, GPT2Model, GPT2Tokenizer
 import logging
 import torch
 import numpy as np
